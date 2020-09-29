@@ -16,7 +16,7 @@ namespace ProjectEuler18
             var reader = new FileReader();
             var alg = new AlgorithmQuick();
 
-            var pyramid = reader.Read(Numbers);
+            var pyramid = reader.Read(p067_triangle);
             Console.WriteLine(alg.Run(pyramid, out List<int> order));
 
             var painter = new Painter();

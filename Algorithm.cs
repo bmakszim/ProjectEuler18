@@ -44,14 +44,4 @@ namespace ProjectEuler18
             }
         }
     }
-
-
-
-    public static class Extensions
-    {
-        //public static int LeftChild(this int)
-        //{
-
-        //}
-    }
 }

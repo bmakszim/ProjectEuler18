@@ -9,13 +9,11 @@ namespace ProjectEuler18
 {
     public class FileReader
     {
-        private const string FilePath = "../../Numbers.txt";
-
-        public List<List<int>> Read()
+        public List<List<int>> Read(string filePath)
         {
             var result = new List<List<int>>();
 
-            using (StreamReader sr = new StreamReader(FilePath))
+            using (StreamReader sr = new StreamReader(filePath))
             {
                 string line;
 

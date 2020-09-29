@@ -8,14 +8,20 @@ namespace ProjectEuler18
 {
     class Program
     {
+        private const string Numbers = "../../Numbers.txt";
+        private const string p067_triangle = "../../p067_triangle.txt";
+
         static void Main(string[] args)
         {
             var reader = new FileReader();
-            var pyramid = reader.Read();
-            var alg = new Algorithm();
+            var alg = new AlgorithmQuick();
+
+            var pyramid = reader.Read(Numbers);
             Console.WriteLine(alg.Run(pyramid, out List<int> order));
+
             var painter = new Painter();
             painter.Paint(pyramid, order);
+
             Console.Read();
         }
     }

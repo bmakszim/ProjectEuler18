@@ -23,10 +23,10 @@ namespace ProjectEuler18
 
                 for (int i = 0; i < input[row].Count; i++)
                 {
-                    if (i == order[row])
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                    }
+                    //if (i == order[row])
+                    //{
+                    //    Console.ForegroundColor = ConsoleColor.Red;
+                    //}
 
                     if (input[row][i] < 10)
                     {
@@ -35,10 +35,10 @@ namespace ProjectEuler18
 
                     Console.Write("{0}  ", input[row][i]);
 
-                    if (i == order[row])
-                    {
-                        Console.ResetColor();
-                    }
+                    //if (i == order[row])
+                    //{
+                    //    Console.ResetColor();
+                    //}
                 }
 
                 Console.WriteLine();

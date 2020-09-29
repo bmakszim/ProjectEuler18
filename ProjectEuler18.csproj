@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithm.cs" />
+    <Compile Include="AlgorithmQuick.cs" />
     <Compile Include="FileReader.cs" />
     <Compile Include="Painter.cs" />
     <Compile Include="Program.cs" />
@@ -54,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Numbers.txt" />
+    <Content Include="p067_triangle.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
